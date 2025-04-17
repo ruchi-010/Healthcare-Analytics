@@ -1,5 +1,5 @@
 # Healthcare-Analytics
-https://github.com/user-attachments/assets/469b73d5-2a32-4542-83c1-94d3e044471d
+https://github.com/user-attachments/assets/bbe94578-07ca-4e7b-b857-020a66f7852d
 
 # Project Overview
 In pursuit of excellence in patient care and operational performance, NovaCare Hospitals aims to enhance operational efficiency by analyzing key processes across admissions, billing, and follow-up workflows. This project consolidates data from various departments, including admissions, billing, and follow-up services, to provide a holistic view of hospital operations. 
@@ -89,7 +89,7 @@ Here’s a glimpse into some of the DAX logic used to uncover patterns and trend
 | **Billing by Procedure** | Measured how much each procedure contributed to total billing to track high-revenue treatments. | DIVIDE([Total Billing Amount], CALCULATE([Total Billing Amount], ALL(procedures[Procedure]))) |
 
 All calculations were implemented in the _calculations table and surfaced through clean KPI visuals, bar charts, and cards across the Power BI report.
-[Download the Power BI report](Healthcare-Analytics/Final_Report.pbix)
+[Download the Power BI report]
 
 # Observations
 - Daily patient volume remains consistent at approximately 20 visits, with outpatient services accounting for nearly 75% of all visits.
