@@ -91,4 +91,6 @@ Here’s a glimpse into some of the DAX logic used to uncover patterns and trend
 All calculations were implemented in the _calculations table and surfaced through clean KPI visuals, bar charts, and cards across the Power BI report.
 [Download the Power BI report](Healthcare-Analytics/Final_Report.pbix)
 
-
+# Observations
+- Daily patient volume remains consistent at approximately 20 visits, with outpatient services accounting for nearly 75% of all visits.
+- 
