@@ -89,7 +89,7 @@ Here’s a glimpse into some of the DAX logic used to uncover patterns and trend
 | **Billing by Procedure** | Measured how much each procedure contributed to total billing to track high-revenue treatments. | DIVIDE([Total Billing Amount], CALCULATE([Total Billing Amount], ALL(procedures[Procedure]))) |
 
 All calculations were implemented in the _calculations table and surfaced through clean KPI visuals, bar charts, and cards across the Power BI report.
-[Download the Power BI report](Healthcare-Analytics/Healthcare_analytics_Final_Report.pbix)
+[Download the Power BI report](Healthcare_analytics_Final_Report.pbix)
 
 # Observations
 - Daily patient volume remains consistent at approximately 20 visits, with outpatient services accounting for nearly 75% of all visits.
