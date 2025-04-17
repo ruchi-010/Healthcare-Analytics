@@ -89,3 +89,6 @@ Here’s a glimpse into some of the DAX logic used to uncover patterns and trend
 | **Billing by Procedure** | Measured how much each procedure contributed to total billing to track high-revenue treatments. | DIVIDE([Total Billing Amount], CALCULATE([Total Billing Amount], ALL(procedures[Procedure]))) |
 
 All calculations were implemented in the _calculations table and surfaced through clean KPI visuals, bar charts, and cards across the Power BI report.
+[Download the Power BI report](Healthcare-Analytics/Final_Report.pbix)
+
+
