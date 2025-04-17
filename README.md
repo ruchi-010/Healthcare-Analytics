@@ -7,6 +7,7 @@ In pursuit of excellence in patient care and operational performance, NovaCare H
 #Data Description
 The NovaCare Hospitals dataset is structured to represent core hospital operations and clinical workflows. It includes patient visits, diagnoses, procedures, billing, and provider details, enabling deep analytical insights through Power BI.
 
+![Healthcare-Analytics](Images/datamodel.jpg)
 ### patients
 Contains demographic data of patients.
 - `Patient ID`, `Patient Name`, `Age`, `Gender`, `City ID`
