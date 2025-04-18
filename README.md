@@ -100,3 +100,22 @@ All calculations were implemented in the _calculations table and surfaced throug
 - Accounts receivable data shows 30–40% of invoices remain outstanding beyond 30 days, pointing to collection cycle inefficiencies.
 - The specialty-wise visit distribution shows Cardiology and Orthopedics as the top service lines, accounting for over 50% of all encounters.
 - Revenue contribution analysis shows Radiology and Surgery jointly account for over 60% of monthly billing, indicating high procedural dependency.
+
+# Recommendations
+- Deploy a mobile pre‑registration app so patients can check in and pay in advance, reducing front‑desk queues and invoice aging.
+- Deploy an accounts receivable dashboard with automated alerts for invoices over 30 days old to accelerate collections.
+- Build a centralized follow‑up engine that auto‑schedules appointments within 18 days and sends reminders via SMS/email.
+- Coordinate preventive health initiatives and telemedicine in off‑peak months to counteract the 47% October revenue dip.
+- Adopt a fast‑track protocol for low‑acuity ED cases, empowering clinical staff to initiate basic treatment immediately.
+- Institute a monthly service‑line review between Cardiology, Orthopedics, Surgery, and Radiology to align capacity with demand shifts.
+- Optimize self‑referral pathways by integrating chat‑based symptom checkers and geotargeted ads.
+
+# Tools & Methodologies
+- Power BI Desktop for data modeling, visualization, and report authoring
+- Star‑schema design linking fact table (visits) to dimensions (Patients, Date, Departments, Procedures, etc.)
+- DAX functions for KPI calculation (time‑intelligence, cohort analysis, rolling averages)
+- Custom visuals for operational insights
+- Automations via Power Query for data cleansing and refresh scheduling
+
+# Conclusion
+This project demonstrates how a well‑designed Power BI solution can turn raw hospital data into actionable insights—revealing patient flows, revenue patterns, and operational bottlenecks—and set the stage for continuous, data‑driven improvements at NovaCare Hospitals.
