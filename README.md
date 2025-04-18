@@ -92,5 +92,11 @@ All calculations were implemented in the _calculations table and surfaced throug
 [Download the Power BI report](Healthcare_analytics_Final_Report.pbix)
 
 # Observations
-- Daily patient volume remains consistent at approximately 20 visits, with outpatient services accounting for nearly 75% of all visits.
-- 
+- NovaCare sustains ~20 patient visits per day, with a 75/25 split between outpatient and inpatient throughput.
+- The emergency department processes ~8 visits daily, yet inpatient admission rate stays at ~25%.
+- One‑third of visits originate from self‑referrals, highlighting strong direct‑to‑patient engagement compared to 25% physician referrals.
+- Imaging workload remains skewed: Orthopedics accounts for 60% of CT scan utilization, while other specialties share the remaining 40%.
+- Billing time‑series analysis reveals stable monthly revenue (~£190K) with a pronounced 47% decline in October collections.
+- Accounts receivable data shows 30–40% of invoices remain outstanding beyond 30 days, pointing to collection cycle inefficiencies.
+- The specialty-wise visit distribution shows Cardiology and Orthopedics as the top service lines, accounting for over 50% of all encounters.
+- Revenue contribution analysis shows Radiology and Surgery jointly account for over 60% of monthly billing, indicating high procedural dependency.
