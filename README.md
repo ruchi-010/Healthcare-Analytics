@@ -55,18 +55,18 @@ This table contains all custom **DAX measures** used in analysis.
 
 An in-depth exploration was carried out to understand and evaluate multiple facets of hospital operations, focusing on patient journeys, provider performance, service efficiency, and financial health. The analysis was structured across several dimensions:
 
-## Patient Demographics
+### Patient Demographics
 - Age, gender, and city-wise distributions were examined to profile the hospital’s patient base.
 - Patterns in referrals were analyzed using the `Referral Source` and `Referral Type` fields to identify major intake channels.
 - Geographic spread was evaluated by linking the `Cities` table with patient information, highlighting key urban areas driving hospital footfall.
 
-## Visit and Operational Insights
+### Visit and Operational Insights
 - Temporal trends were explored using the `Date` table and fields like `Admitted Date`, `Discharge Date`, and `Follow-up Visit Date` to identify peak admission days, lengths of stay, and follow-up gaps.
 - Key operational KPIs such as `Room Charges`, `Medication Cost`, `Insurance Coverage`, and `Treatment Cost` were broken down by `Department`, `Diagnosis`, `Procedure`, and `Service Type`.
 - Analysis of `Patient Satisfaction Score` and `Treatment Satisfaction Score` helped uncover quality-of-care issues and provider-level variations.
 - Room type and service type utilization rates were tracked to assess capacity planning and resource optimization.
 
-## Billing and Insurance Analysis
+### Billing and Insurance Analysis
 - Patient billing data was dissected using the `Insurance`, `Treatment Cost`, and `Medication Cost` fields to understand payer mix and cost drivers.
 - The DAX-powered `Calculations` table helped compute aggregated values such as `Total Insurance Coverage`, `Total Room Charges`, `Total Medication Cost`, and `Total Treatment Cost`.
 - Payment statuses and insurance coverage levels were evaluated across departments and diagnoses to detect collection delays or underinsured segments.
@@ -76,7 +76,7 @@ An in-depth exploration was carried out to understand and evaluate multiple face
 - Department-wise analysis focused on procedure frequency, diagnosis types, patient throughput, and cost efficiency.
 - Provider-level performance was assessed using patient satisfaction metrics and number of visits attended.
 
-## Advanced Drilldowns and Cross Filtering
+### Advanced Drilldowns and Cross Filtering
 - Interactive reports enabled dynamic filtering by department, diagnosis, city, and insurance provider to reveal granular trends.
 - All analysis was driven by relationships established in the data model across fact and dimension tables (Visits, Patients, Providers, Procedures, Insurance, etc.).
 
